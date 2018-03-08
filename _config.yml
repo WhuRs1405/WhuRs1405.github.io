@@ -7,7 +7,7 @@ title: WhuRs1405
 subtitle:
 description:
 author: 胡奕公
-language:
+language: zh-CN
 timezone:
 
 # URL
@@ -81,4 +81,13 @@ deploy:
   repo: git@github.com:WhuRs1405/WhuRs1405.github.io.git
   branch: master
   
-
+marked:
+  gfm: false
+  pedantic: false
+  sanitize: false
+  tables: true
+  breaks: false
+  smartLists: true
+  smartypants: true
+  modifyAnchors: ''
+  autolink: true
